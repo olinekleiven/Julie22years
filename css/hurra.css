@@ -18,13 +18,14 @@ body {
     right: 0;
     text-align: center;
     top: 27%;
-    color: rebeccapurple;
-    font-family: 'Righteous', cursive;
+    color: rgb(220, 111, 171);
+    font-family: 'Arial', sans-serif;
     font-size: 63px;
     letter-spacing: 10px;
-    text-shadow: 2px 4px 11px rgb(0 0 0 / 28%);
+    text-shadow: 2px 4px 11px rgba(0, 0, 0, 0.5);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: black;
+    border-radius: 10px; /* Adding rounded corners for better aesthetics */
 }
 
 @keyframes rainbow {
@@ -46,7 +47,7 @@ body {
     right: 0;
     text-align: center;
     top: 28%; /* Plasserer teksten rett under .name */
-    font-family: 'Righteous', cursive;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 20px; /* Mye mindre skriftstørrelse */
     letter-spacing: 2px;
     text-shadow: 1px 2px 5px rgb(0 0 0 / 28%);
@@ -64,7 +65,7 @@ body {
     top: 79%; /* Plasserer knappen litt under de andre elementene */
     background-color: hotpink; /* Knall rosa bakgrunn */
     color: white; /* Hvit tekst */
-    font-family: 'Righteous', cursive;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
     letter-spacing: 2px;
     text-shadow: 1px 2px 5px rgb(0 0 0 / 28%);
